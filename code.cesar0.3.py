@@ -24,7 +24,7 @@ def cesar(msg="", clef=0):
 	return chiffre 
 # cesar() 
   
-message = "hellojemappellelolaetjesuisuncaca"
+message = "hellothisisamessage"
 chiffre = cesar(message, 5)
 dechiffre = cesar(chiffre, -5)
 print(message,"-->", chiffre,"-->", dechiffre)
